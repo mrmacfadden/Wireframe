@@ -28,9 +28,8 @@
         <script src="scripts.js"></script>
     </head>
 
-    <body>
+    <body onload="hide(); showPanel1();">
 
-        
         
         <!-- PANEL 1 -->
         <div class="panel" id="panel-1">            
@@ -42,11 +41,22 @@
             <h1>Panel 2</h1>
         </div>
 
+        <!-- PANEL 3 -->
+        <div class="panel" id="panel-3">
+            <h1>Panel 3</h1>
+        </div>
+
+        <!-- PANEL 4 -->
+        <div class="panel" id="panel-4">
+            <h1>Panel 4</h1>
+        </div>
+
+        <!-- NAVIGATION -->
         <nav class="navbar">
-            <button onclick="hide();">Home</button>
-            <button>Search</button>
-            <button>Feed</button>
-            <button>Profile</button>
+            <button onclick="hide(); showPanel1();">Home</button>
+            <button onclick="hide(); showPanel2();">Search</button>
+            <button onclick="hide(); showPanel3();">Feed</button>
+            <button onclick="hide(); showPanel4();">Profile</button>
         </nav>
 
     </body>
