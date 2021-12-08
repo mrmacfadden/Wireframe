@@ -7,7 +7,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Two Panels</title>
+        <title>Wireframe</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="style.css">
@@ -20,7 +20,7 @@
         <!-- MOBILE WEB APP, ADD THIS TO <head>..</head> OF index.html -->
         <link rel="icon" type="image/png" href="favicon.png" />
         <link rel="apple-touch-icon" href="favicon.png">
-        <meta name="apple-mobile-web-app-title" content="Two Panels">
+        <meta name="apple-mobile-web-app-title" content="Wireframe">
         <meta name="apple-mobile-web-app-capable" content="yes">
         <meta name="apple-mobile-web-app-status-bar-style" content="black">
         
@@ -33,16 +33,21 @@
         
         
         <!-- PANEL 1 -->
-        <div class="panel-1" id="panel-1">            
+        <div class="panel" id="panel-1">            
             <h1>Panel 1</h1>
-            <button onclick="show();">Panel 2</button>
         </div>
     
         <!-- PANEL 2 -->
-        <div class="panel-2" id="panel-2">
+        <div class="panel" id="panel-2">
             <h1>Panel 2</h1>
-            <button onclick="hide();">Panel 1</button>
         </div>
+
+        <nav class="navbar">
+            <button onclick="hide();">Home</button>
+            <button>Search</button>
+            <button>Feed</button>
+            <button>Profile</button>
+        </nav>
 
     </body>
 </html>

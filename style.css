@@ -8,16 +8,17 @@ html,body{
     margin:0;
     padding:0;
     text-align:center;
+    background:grey;
 }
+.panel{
 
+}
 #panel-1{
     height:100%;
     background: gold;
-
 }
 #panel-2{
     height:100%;
-    display:none;
     background:blue;
 }
 button{
@@ -41,4 +42,20 @@ h1{
 p{
   font-family: 'Roboto', sans-serif;  
   font-size:18px;
+}
+
+/*
+=================================================
+Navigation
+=================================================
+*/
+
+nav{
+    position:fixed;
+    bottom:0;
+    width:100%;
+    text-align:center;
+    background:#FFF;
+    border-top:#CCC;
+    padding:10px;
 }
